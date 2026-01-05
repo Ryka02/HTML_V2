@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+body{
+  margin:0;
+  font-family:'Orbitron', sans-serif;
+  background:radial-gradient(circle at top, #1b1b3a, #05010a);
+  color:#eaeaff;
+}
+
+.hero{
+  min-height:60vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:linear-gradient(135deg,#7f5cff,#00ffe7);
+  color:#000;
+}
+
+.hero.small{min-height:30vh;}
+
+.glow{
+  font-size:3rem;
+  text-shadow:0 0 15px rgba(255,255,255,.8);
+}
+
+.subtitle{letter-spacing:3px;margin:10px 0;}
+
+.btn-primary{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 20px;
+  background:#000;
+  color:#00ffe7;
+  text-decoration:none;
+  border:1px solid #00ffe7;
+}
+
+.container{
+  width:90%;
+  max-width:1000px;
+  margin:auto;
+}
+
+.card{
+  margin:30px 0;
+  padding:25px;
+  border-radius:16px;
+}
+
+.futuristic{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(0,255,231,0.3);
+  box-shadow:0 0 30px rgba(0,255,231,0.15);
+}
+
+.profile-photo{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  border:3px solid #00ffe7;
+}
+
+.profile-info{
+  padding-left:20px;
+}
+
+.neon{
+  color:#00ffe7;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+td,th{
+  padding:10px;
+  border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+.contact-form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+input,textarea{
+  padding:10px;
+  background:#000;
+  border:1px solid #00ffe7;
+  color:#00ffe7;
+}
+
+.footer{
+  text-align:center;
+  padding:20px;
+  border-top:1px solid rgba(255,255,255,0.2);
+}
